@@ -52,4 +52,6 @@ export class ProductListComponent implements OnInit {
     filterBy = filterBy.toLowerCase();
     return this.products.filter((product: IProduct) => product.productName.toLowerCase().indexOf(filterBy) !== -1);
   }
+
+  onNotify(message: string): void {}
 }

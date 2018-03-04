@@ -8,7 +8,7 @@ export interface IProduct {
   starRating: number;
   imageUrl: string;
 
-  calculerDiscount(percent: number): number;
+  // calculerDiscount(percent: number): number;
 }
 
 export class Product implements IProduct {
